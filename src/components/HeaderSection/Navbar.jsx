@@ -8,7 +8,7 @@ const Navbar = () => {
                     <p className="col-10">Kareng Chapori </p>
                     <p className="col-10">Eco Camp</p>
                 </div>
-                <div className="d-flex col-7 flex-wrap main-nav-div justify-content-center gap-5 align-items-center">
+                <div className="d-flex col-7 flex-wrap main-nav-div justify-content-end gap-5 align-items-center">
                     <NavLink className="nav-link" to="/">Activities</NavLink>
                     <NavLink className="nav-link" to="/">Gallery</NavLink>
                     <NavLink className="nav-link" to="/">Contact</NavLink>
