@@ -2,7 +2,10 @@
     padding: 0px !important;
     margin: 0px !important;
 } */
-
+.navbar-container{
+    background: #023A15;
+    padding: 15px 0px;
+}
 .main-nav-text p {
     padding: 0px;
     margin: 0px;
