@@ -1,0 +1,11 @@
+.main-contact {
+    position: relative;
+    top: 40px;
+
+    padding: 40px 0px;
+    background-image: url('./ContactImages/contact.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
