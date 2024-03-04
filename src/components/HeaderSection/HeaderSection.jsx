@@ -14,10 +14,10 @@ const HeaderSection = () => {
                 {/* -------------------- header content component --------------------- */}
                 <HeaderContent />
             </div>
-            {/* <div>
+            <div>
                 <Accommodation />
                 <Activities />
-            </div> */}
+            </div>
         </Layout>
     )
 }

@@ -7,11 +7,12 @@
 } */
 
 .header-text-div p {
-    font-size: 60px;
+    font-size: 55px;
     font-family: var(--para-font-1);
     color: white;
     text-align: left;
     margin: 0px;
+    /* line-height: normal; */
 }
 
 .header-text-div p:nth-child(even) {
@@ -19,10 +20,11 @@
 }
 
 .header-text-des {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 18px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-size: 15px;
     color: white;
     margin-top: 20px;
+    text-align: justify;
 }
 
 .header-text-btn {
@@ -30,8 +32,6 @@
     border: none;
     outline: none;
     padding: 5px 30px;
-
-    font-family: var(--para-font-2);
     font-weight: bold;
     font-size: 18px;
     border-radius: 5px;
@@ -73,7 +73,12 @@
 }
 
 /* -----------------media query--------------- */
-@media screen and (max-width:600px){
+@media screen and (max-width:769px) {
+    .header-text-div p {
+    font-size: 35px;
+}
+}
+@media screen and (max-width:769px){
     .header-img-div-1 {
     width: 100px;
     height: 150px;

@@ -71,3 +71,37 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     font-size: 14px;
 }
+
+/* ==============media query for small screen size============= */
+@media screen  and (max-width:600px){
+    .accomm-container{
+        height: 600px !important;
+        flex-direction: column;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .accomm-container>div{
+        width: 100%;
+        /* border: 1px solid green; */
+    }
+    .accomm-img-div-1{
+     width: 140px !important; 
+     height: 160px !important;
+    position: absolute;
+    left: 180px !important;
+    transform: rotate(25deg) !important;
+    z-index: 1;
+}
+
+.accomm-img-div-2{
+    width: 140px !important; 
+    height: 160px !important;
+    position: absolute;
+    top: 40px !important;
+    z-index: 2;
+}
+.activities-cont-div{
+    display: flex;
+    flex-direction: column-reverse;
+}
+}
