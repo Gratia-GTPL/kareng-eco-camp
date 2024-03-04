@@ -45,4 +45,16 @@
     flex-direction: column;
     gap: 25px;
     }
+    .footer-logo-container>h1{
+  font-size: 23px;
+}
+.footer-logo-container>h2{
+    font-size: 21px;
+}
+.footer-about-conatiner>h4{
+    font-size: 17px;
+}
+.footer-address-container>h4{
+    font-size: 17px;
+}
 }

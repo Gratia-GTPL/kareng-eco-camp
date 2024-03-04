@@ -12,7 +12,7 @@ const ActivitiesPage = () => {
                     <div className='activities-head-div'>
                         <h1>Activities</h1>
                     </div>
-                    <div className='activities-content-img-div'>
+                    <div className='activities-content-img-div-1'>
                         <div className='activities-content'>
                             <h5>Kayaking Excursions</h5>
                             <p>
@@ -30,7 +30,7 @@ const ActivitiesPage = () => {
                         </div>
                     </div>
                     {/* =============================== */}
-                    <div className='activities-content-img-div'>
+                    <div className='activities-content-img-div-2'>
                         <div className='activities-img-div'>
                             <div className='activities-img'>
                                 <img src={G3} />
@@ -48,7 +48,7 @@ const ActivitiesPage = () => {
                         </div>
                     </div>
                     {/* ========================= */}
-                    <div className='activities-content-img-div'>
+                    <div className='activities-content-img-div-3'>
                         <div className='activities-content'>
                             <h5>Cultural Immersion Experiences</h5>
                             <p>

@@ -17,9 +17,9 @@ const Layout = ({ children }) => {
 >>>>>>> c061410a9eed86e14f9d5509565696cf91fa32de
             </div>
             <div className=" full-height">{children}</div>
-            {/* <div>
+            <div>
                 <Footer />
-            </div> */}
+            </div>
         </div>
     )
 }

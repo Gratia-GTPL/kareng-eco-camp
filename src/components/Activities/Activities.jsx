@@ -6,7 +6,7 @@ import accomm1 from "../Accommodation/accommodationImages/accomm1.png"
 const Activities = () => {
     const navigate = useNavigate()
     return (
-        <div className='accomm-container'>
+        <div className='accomm-container activities-cont-div'>
             <div className='accomm-img-group'>
                 <div className='accomm-img-div-1'>
                     <img src={accomm1} />
