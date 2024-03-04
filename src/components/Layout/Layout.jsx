@@ -9,9 +9,9 @@ const Layout = ({ children }) => {
                 <Navbar />
             </div>
             <div className=" full-height">{children}</div>
-            <div>
+            {/* <div>
                 <Footer />
-            </div>
+            </div> */}
         </div>
     )
 }

@@ -5,6 +5,7 @@
 .navbar-container{
     background: #023A15;
     padding: 15px 0px;
+    z-index: 99;
 }
 .main-nav-text p {
     padding: 0px;
@@ -41,3 +42,127 @@
 .nav-link:focus {
     color: white;
 }
+
+/* ----------------------add new css------------------------- */
+.nav-main {
+  width: 100%;
+  height: 70px;
+  padding: 0px 25px;
+  background: #023A15;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.logo-div>span {
+  color: #e9d35b;
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 21px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: normal;
+}
+ul {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+ul a {
+  text-decoration: none;
+}
+ul a li {
+  list-style: none;
+  margin: 0 20px;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  color: #fff;
+}
+ul a li:hover {
+  color: rgb(184, 182, 182);
+}
+ul a li {
+  position: relative;
+}
+ul a li:after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -6px;
+  transition: all 0.5s ease;
+}
+ul a li:hover:after {
+  width: 100%;
+}
+
+.menu-div {
+  height: 70px;
+  font-size: 25px;
+  color: #fff;
+  display: none;
+}
+.open-icon,
+.close-icon {
+  font-size: 32px;
+  margin-right: 20px;
+  color: #fff;
+  z-index: 99;
+}
+
+/* ----------media query----------- */
+@media screen and (max-width: 769px) {
+  .nav-main {
+    padding: 0px;
+  }
+ .logo-div>span{
+    font-size: 18px;
+ }
+  .menu-div {
+    display: block;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: #21325e;
+  }
+  .ul {
+    display: none;
+  }
+  .openMenu {
+    flex-direction: column;
+    width: 70%;
+    height: 100vh;
+    position: absolute;
+    background: #0b6228;
+    padding: 20px 20px 0px 20px;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    padding-top: 120px;
+  }
+  .openMenu a li {
+    color: white;
+    margin-bottom: 25px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .closeMenu {
+    right: -100%;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
