@@ -7,6 +7,7 @@ import GalleryPage from './pages/GalleryPage/GalleryPage';
 import ActivitiesPage from './pages/ActivitiesPage/ActivitiesPage';
 import AccommodationPage from './pages/AccommodationPage/AccommodationPage';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Contact from './pages/Contact/Contact';
 function App() {
 
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/gallery" element={<GalleryPage />} />
           <Route exact path="/activities" element={<ActivitiesPage />} />
           <Route exact path="/accommodations" element={<AccommodationPage />} />
+          <Route exact path="/contact" element={<Contact />} />
           {/* ----------------- header section component -------------------- */}
         </Routes>
       </Router>
