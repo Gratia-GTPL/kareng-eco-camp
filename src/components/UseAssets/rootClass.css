@@ -1,4 +1,9 @@
 :root {
     --para-font-1: 'Poppins', sans-serif;
     --para-font-2: 'Times New Roman', Times, serif;
+    --para-font-3: font-family: "Roboto", sans-serif !important;
+    --box-shadow-1: -1px 1px 3px rgba(0, 0, 0, 0.1),
+        -1px -3px 3px rgba(0, 0, 0, 0.1),
+        1px 3px 3px rgba(0, 0, 0, 0.1),
+        -1px 1px 3px rgba(0, 0, 0, 0.1);
 }
