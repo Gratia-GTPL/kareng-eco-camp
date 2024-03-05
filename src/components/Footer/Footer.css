@@ -3,9 +3,9 @@
     background-color: #023A15;
     color:#ffffff;
     display: flex;
-    /* align-items: first baseline; */
-    gap: 20px;
-    padding: 50px 30px;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 47px;
 }
 .footer-container>div{
     flex:1;
@@ -43,7 +43,9 @@
 @media screen and (max-width:769px) {
     .footer-container{
     flex-direction: column;
+    align-items: flex-start;
     gap: 25px;
+    padding: 50px 20px !important;
     }
     .footer-logo-container>h1{
   font-size: 23px;
