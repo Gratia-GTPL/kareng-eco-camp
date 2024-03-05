@@ -47,7 +47,7 @@ const Navbar = () => {
                     <NavLink to="/contact">
                         <li onClick={menuControl}>Contact</li>
                     </NavLink>
-                    <NavLink to="/">
+                    <NavLink to="/login">
                         <li onClick={menuControl} className="last-li">
                             Login/Signup
                         </li>
