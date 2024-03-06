@@ -6,7 +6,7 @@ import "../../components/UseAssets/rootClass.css";
 const Contact = () => {
     return (
         <Layout>
-            <div className="d-flex col-12 flex-wrap justify-content-center main-contact">
+            <div className="d-flex col-12 flex-wrap md justify-content-center main-contact">
                 <ContactContent />
                 <ContactForm />
             </div>

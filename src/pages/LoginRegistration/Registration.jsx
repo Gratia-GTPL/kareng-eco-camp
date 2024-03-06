@@ -25,8 +25,8 @@ const Registration = () => {
                     <p>Phone no</p>
                     <input type="number" />
                 </div>
-                <div className="flex-div login-form-1">
-                    <button>Registration</button>
+                <div className="flex-div login-btn-div" style={{ marginTop: '25px' }}>
+                    <button>Sign Up</button>
                 </div>
                 <div className="flex-div login-div">
                     <p>Already have an account?</p>

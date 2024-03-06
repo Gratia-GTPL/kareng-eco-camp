@@ -1,8 +1,11 @@
 .main-login-registration {
-    position: relative;
+    /* position: relative; */
     top: 40px;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
+    padding-top: 90px;
+    padding-bottom: 50px;
     align-items: flex-start;
     background: red;
     background-image: url("./LoginRegistrationImages/login-nature.jpg");
@@ -19,8 +22,8 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .main-login-form {
-        width: 80%;
+        width: 88%;
     }
 }

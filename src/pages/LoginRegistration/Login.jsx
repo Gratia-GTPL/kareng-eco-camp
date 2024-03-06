@@ -22,10 +22,12 @@ const Login = () => {
                         <p>Password</p>
                         <input type="password" />
                     </div>
-                    <div className="flex-div login-form-1">
+                    <div className="flex-div forgot-pass-div">
                         <NavLink className="login-link" to="/forgot-password">
-                            Forgot your password ?
+                            Forgot password ?
                         </NavLink>
+                    </div>
+                    <div className="login-btn-div">
                         <button>Login</button>
                     </div>
                     <div className="flex-div login-div">

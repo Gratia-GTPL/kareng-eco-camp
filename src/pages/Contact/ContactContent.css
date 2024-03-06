@@ -11,14 +11,15 @@
     font-weight: bold;
     font-size: 22px;
     text-align: left;
-    color: #86C5B1;
+    /* color: #86C5B1; */
     margin: 0px !important;
+    color:rgb(35, 34, 34);
 }
 
 .contact-icon {
     text-align: right;
     font-size: 40px;
-    color: #59B99D;
+    color: #023A15;
     margin: 0px;
     line-height: 10px;
     padding: 0px;
@@ -26,54 +27,63 @@
 
 .contact-content-p {
     font-size: 13px;
-    font-family: var(--para-font-3);
-    font-weight: bold;
+    font-weight: 400;
     margin-bottom: 30px;
+    letter-spacing: 0.4px;
+    text-align: justify;
 }
 
 .contact-content-info {
-    font-family: var(--para-font-3);
-    /* font-weight: bold; */
     align-items: center;
     margin: 5px 0px;
 
 }
 
 .contact-content-info p:first-child {
-    color: #C1E5DB;
-    font-size: 25px;
+    /* color: #C1E5DB; */
+    font-size: 20px;
     margin: 0px;
+    color:#023A15;
 
 }
 
 .contact-content-info p:last-child {
-    color: #4AA48A;
+    /* color: #4AA48A; */
     font-size: 14px;
     margin: 0px;
 }
 
 .contact-content-social-p {
     font-size: 15px;
-    font-family: var(--para-font-3);
-    font-weight: bold;
+    /* font-family: var(--para-font-3); */
+    font-weight: 500;
     margin: 0px;
+    /* color:red; */
 }
-
-
-
 .contact-content-us p {
-    font-size: 20px;
-    color: white;
-    background: #51A790;
+    width: 35px;
+    height: 35px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgrey;
     line-height: normal;
     padding: 5px 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.contact-content-us p:hover{
+    background-color: rgb(192, 190, 190);
 }
 
 .contact-shrink-div {
-
     transition: 0.9s ease-in-out;
-    /* width: 10%; */
-    /* flex-wrap: nowrap !important;
-    white-space: nowrap;
-    overflow: hidden; */
+}
+
+@media screen and (max-width:600px) {
+    .main-contact-content{
+    padding: 25px 0px;
+     border-radius: 6px 6px 0px 0px;
+}
 }
