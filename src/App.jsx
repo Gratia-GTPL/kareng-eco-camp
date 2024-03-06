@@ -8,6 +8,7 @@ import ActivitiesPage from './pages/ActivitiesPage/ActivitiesPage';
 import AccommodationPage from './pages/AccommodationPage/AccommodationPage';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Contact from './pages/Contact/Contact';
+import LoginRegistration from './pages/LoginRegistration/LoginRegistration';
 function App() {
 
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/activities" element={<ActivitiesPage />} />
           <Route exact path="/accommodations" element={<AccommodationPage />} />
           <Route exact path="/contact" element={<Contact />} />
+          <Route exact path='/login' element={<LoginRegistration />} />
           {/* ----------------- header section component -------------------- */}
         </Routes>
       </Router>
