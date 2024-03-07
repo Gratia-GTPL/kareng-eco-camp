@@ -14,7 +14,7 @@ const Registration = () => {
                 <h1>Welcome</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, rem.</p>
                 <div className="flex-div login-form">
-                    <p>User name</p>
+                    <p>Email</p>
                     <input type="text" />
                 </div>
                 <div className="flex-div login-form">
@@ -22,7 +22,7 @@ const Registration = () => {
                     <input type="password" />
                 </div>
                 <div className="flex-div login-form">
-                    <p>Phone no</p>
+                    <p>Phone No.</p>
                     <input type="number" />
                 </div>
                 <div className="flex-div login-btn-div" style={{ marginTop: '25px' }}>

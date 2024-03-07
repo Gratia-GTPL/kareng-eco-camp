@@ -15,9 +15,8 @@ const ContactContent = () => {
             <h3 className=" col-11 contact-contetn-h3">Let's get in touch</h3>
             <p className="col-12 contact-icon"><i className="fa-solid fa-caret-left"></i></p>
             <p className="col-11 contact-content-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse recusandae debitis, numquam unde facilis ipsam sapiente voluptates sequi voluptate? Magnam?</p>
-            <div className="col-11 d-flex gap-2 contact-content-info">
+            <div className="col-11 d-flex gap-2 contact-content-info" style={{ lineHeight: '17px' }}>
                 <p>
-                    {/* <FaAddressCard /> */}
                     <FaRegAddressCard />
                 </p>
                 <p>GMHC+CVF, Kareng Chapori PO Mesaki, Sissiborgaon, Assam 786110</p>
@@ -32,7 +31,7 @@ const ContactContent = () => {
                 <p>
                     <IoCallOutline />
                 </p>
-                <p>+01 1234567890</p>
+                <p>+91 1234567890</p>
             </div>
             <h6 className="col-11">Contact with us :</h6>
             <div className="d-flex flex-wrap gap-2 col-11 justify-content-start contact-content-us">
