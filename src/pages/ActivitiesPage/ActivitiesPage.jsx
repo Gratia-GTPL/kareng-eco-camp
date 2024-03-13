@@ -1,6 +1,9 @@
 import React from 'react'
 import "./ActivitiesPage.css"
 import Layout from '../../components/Layout/Layout'
+import kayaking from "../../assets/images/kayaking.jpeg"
+import cultural from "../../assets/images/cultural.jpeg"
+import cultural2 from "../../assets/images/cultural2.jpeg"
 import G2 from "../GalleryPage/GalleryImages/G2.png"
 import G3 from "../GalleryPage/GalleryImages/G3.png"
 
@@ -22,10 +25,7 @@ const ActivitiesPage = () => {
                         </div>
                         <div className='activities-img-div'>
                             <div className='activities-img'>
-                                <img src={G3} />
-                            </div>
-                            <div className='activities-img'>
-                                <img src={G2} />
+                                <img src={kayaking} alt="img" />
                             </div>
                         </div>
                     </div>
@@ -33,10 +33,7 @@ const ActivitiesPage = () => {
                     <div className='activities-content-img-div-2'>
                         <div className='activities-img-div'>
                             <div className='activities-img'>
-                                <img src={G3} />
-                            </div>
-                            <div className='activities-img'>
-                                <img src={G2} />
+                                <img src={cultural} alt="img" />
                             </div>
                         </div>
                         <div className='activities-content'>
@@ -58,11 +55,9 @@ const ActivitiesPage = () => {
                         </div>
                         <div className='activities-img-div'>
                             <div className='activities-img'>
-                                <img src={G3} />
+                                <img src={cultural2} alt="img" />
                             </div>
-                            <div className='activities-img'>
-                                <img src={G2} />
-                            </div>
+
                         </div>
                     </div>
                 </div>

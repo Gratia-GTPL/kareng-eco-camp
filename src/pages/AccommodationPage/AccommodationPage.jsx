@@ -28,7 +28,7 @@ const AccommodationPage = () => {
                         </div>
                     </div>
                     {/* ============================= */}
-                    <div className='accom-content-img-div'>
+                    <div className='accom-content-img-div reverse-content'>
                         <div className='accom-img-div'>
                             <div className='accom-img'>
                                 <img src={accom1} />

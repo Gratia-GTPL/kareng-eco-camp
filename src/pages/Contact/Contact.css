@@ -1,11 +1,19 @@
 .main-contact {
     /* position: relative; */
     /* top: 40px; */
-    padding-top: 90px;
+    height: 100vh;
+    padding-top: 50px;
     padding-bottom: 50px;
     background-image: url('./ContactImages/contact.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
+}
+
+/* ===========media query for mobile and tab========= */
+@media screen and (max-width:769px) {
+   .main-contact{
+    height: auto;
+   } 
 }

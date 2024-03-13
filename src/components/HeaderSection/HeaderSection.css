@@ -1,4 +1,10 @@
 .main-header {
-    background: #023A15;
+    /* background: #023A15; */
+    height: 90vh;
     padding: 20px 0px;
+    background-image: url("../HeaderSection/HeaderImages/main1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-position-y: bottom;
 }

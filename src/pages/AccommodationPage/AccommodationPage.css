@@ -48,3 +48,23 @@
     height: 100%;
     object-fit: cover;
 }
+
+/* =========media query for mobile and tab============= */
+@media screen and (max-width:769px) {
+    .accommodation-container {
+    padding: 0px 15px;
+}
+.accommodation-container-div{
+    margin-top: 20px;
+}
+    .accom-content-img-div{
+    flex-direction: column;
+}
+.accom-content-img-div>div{
+    width: 100%;
+}
+.reverse-content{
+    display: flex;
+    flex-direction: column-reverse;
+}
+}

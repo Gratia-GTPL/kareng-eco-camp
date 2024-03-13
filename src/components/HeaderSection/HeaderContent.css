@@ -1,6 +1,28 @@
 .main-header-content {
     margin-top: 30px;
 }
+.hero-section-heading-div{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero-section-heading-div>h1{
+    color:white;
+    font-size: 50px;
+}
+.hero-section-heading-div>h1>span{
+   color: rgb(239, 176, 15);
+   font-weight: 600;
+   /* font-family: cursive; */
+}
+.hero-section-heading-div>p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.hero-section-heading-div>button{
+    margin-top: 30px;
+}
 .header-text-div p {
     font-size: 50px;
     color: white;
@@ -11,7 +33,9 @@
     margin-top: 15px;
 }
 .header-text-div>p{
+    display: flex;
      line-height: normal;
+     border:2px solid green
 }
 .header-text-div p:nth-child(even) {
     font-weight: bold;

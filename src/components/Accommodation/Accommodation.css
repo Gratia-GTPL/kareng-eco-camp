@@ -76,7 +76,7 @@
 }
 
 /* ==============media query for small screen size============= */
-@media screen  and (max-width:600px){
+@media screen  and (max-width:600px) {
     .accomm-container{
         height: 600px !important;
         flex-direction: column;
