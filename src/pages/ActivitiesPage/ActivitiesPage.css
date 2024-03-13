@@ -61,6 +61,9 @@
    .activities-container{
     padding: 0px 20px;
    } 
+   .activities-container-div{
+    margin-top: 20px;
+   }
    .activities-content-img-div-1{
     flex-direction: column-reverse;
     gap: 15px;

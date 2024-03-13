@@ -150,7 +150,6 @@ ul a li:hover:after {
     width: 70%;
     height: 100vh;
     position: absolute;
-    background: #0b6228;
     padding: 20px 20px 0px 20px;
     top: 0px;
     right: 0;
@@ -158,6 +157,9 @@ ul a li:hover:after {
     text-align: center;
     transition: all 0.3s ease-in-out;
     padding-top: 120px;
+     background: #0F2027; 
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
   }
   .openMenu a li {
     color: white;

@@ -77,7 +77,7 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
 }
 
 /* ==============media query for small screen size============= */
-@media screen  and (max-width:600px){
+@media screen  and (max-width:769px){
     .accomm-container{
         height: 600px !important;
         flex-direction: column;

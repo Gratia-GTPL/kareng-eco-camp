@@ -116,7 +116,6 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
     font-size: 14px;
     color: #858585;
     letter-spacing: 0.3px;
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
 
 .login-div {
@@ -133,12 +132,10 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
 .login-div button {
     cursor: pointer;
     font-size: 14px;
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     border: none;
     color: #858585;
     background-color: transparent;
     border:none;
-    /* border-bottom: 1px solid #858585; */
 }
 
 .hide-login-div {

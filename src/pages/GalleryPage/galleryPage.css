@@ -39,6 +39,9 @@
     .gallery-container{
         padding: 0 20px;
     }
+    .gallery-container-div{
+        margin-top: 20px;
+    }
     .gallery-images-div{
     grid-template-columns: 1fr 1fr !important;
     gap:10px;
